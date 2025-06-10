@@ -16,7 +16,7 @@ RUN apt update
 # Install apt managed sofware
 RUN apt -y install git \
     postgresql-client \
-    sqlite3
+    sqlite3 php
 
 # Upgrade pip
 RUN pip install --upgrade pip
